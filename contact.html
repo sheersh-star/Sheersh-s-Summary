@@ -34,24 +34,6 @@
       <a class="btn" href="https://www.linkedin.com/in/sheersh-kachhwaha/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn" href="https://github.com/sheersh-star" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
-      <input type="hidden" name="form-name" value="contact" />
-      <p class="form-honeypot"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
-      <div class="form-field">
-        <label for="cf-name">Name</label>
-        <input type="text" id="cf-name" name="name" required />
-      </div>
-      <div class="form-field">
-        <label for="cf-email">Email</label>
-        <input type="email" id="cf-email" name="email" required />
-      </div>
-      <div class="form-field">
-        <label for="cf-message">Message</label>
-        <textarea id="cf-message" name="message" required></textarea>
-      </div>
-      <button class="btn" type="submit">Send</button>
-      <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
-    </form>
   </div>
 </main>
 
@@ -64,45 +46,5 @@
 
 <script src="theme.js"></script>
 <script src="chat-widget.js"></script>
-<script>
-(function () {
-  function encode(data) {
-    return Object.keys(data).map(function (k) {
-      return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-    }).join("&");
-  }
-  var form = document.getElementById("contact-form");
-  var status = document.getElementById("form-status");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var data = {
-      "form-name": form.getAttribute("name"),
-      name: form.name.value,
-      email: form.email.value,
-      message: form.message.value,
-      "bot-field": form["bot-field"].value
-    };
-    var btn = form.querySelector("button[type=submit]");
-    btn.disabled = true;
-    status.className = "form-status";
-    status.textContent = "Sending...";
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode(data)
-    }).then(function (res) {
-      if (!res.ok) throw new Error("Submission failed");
-      form.reset();
-      status.className = "form-status success";
-      status.textContent = "Thanks — message sent. I'll get back to you soon.";
-    }).catch(function () {
-      status.className = "form-status error";
-      status.textContent = "Something went wrong — email Sheersh0802@gmail.com directly instead.";
-    }).finally(function () {
-      btn.disabled = false;
-    });
-  });
-})();
-</script>
 </body>
 </html>

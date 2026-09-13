@@ -180,28 +180,6 @@ h2 {
 }
 .pending strong { font-style: normal; color: var(--ink); }
 
-/* ---- contact form ---- */
-.contact-form { margin-top: 32px; max-width: 480px; }
-.form-field { margin-bottom: 18px; }
-.form-field label {
-  display: block; font-family: var(--font-mono); font-size: 11px;
-  letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted);
-  margin-bottom: 6px;
-}
-.form-field input, .form-field textarea {
-  width: 100%; background: var(--surface); border: 1px solid var(--line);
-  border-radius: 6px; padding: 11px 13px; font-family: var(--font-body);
-  font-size: 0.95rem; color: var(--ink); outline: none;
-}
-.form-field input:focus, .form-field textarea:focus { border-color: var(--accent); }
-.form-field textarea { resize: vertical; min-height: 120px; }
-.form-honeypot { position: absolute; left: -9999px; }
-.form-status { margin-top: 14px; font-size: 0.9rem; }
-.form-status.success { color: var(--accent); }
-.form-status.error { color: var(--accent-2); }
-button.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--paper); cursor: pointer; }
-button.btn:disabled { opacity: 0.6; cursor: default; }
-
 /* ---- footer ---- */
 footer.site-footer {
   border-top: 1px solid var(--line);
