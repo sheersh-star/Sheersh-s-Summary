@@ -157,7 +157,7 @@ h2 {
 }
 .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
 .card-title { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; margin: 0; }
-.card-meta { font-family: var(--font-mono); font-size: 11px; color: var(--muted-2); white-space: nowrap; }
+.card-meta { font-family: var(--font-mono); font-size: 11px; color: var(--muted-2); }
 .card p { color: var(--muted); font-size: 0.94rem; margin: 6px 0; }
 .card ul { margin: 12px 0 0; padding-left: 20px; }
 .card li { font-size: 0.92rem; margin-bottom: 6px; color: var(--ink); }
