@@ -22,7 +22,7 @@
     },
     {
       keywords: ["education", "degree", "university", "college", "study", "studied", "msc", "bsc", "kingston", "fergusson"],
-      answer: "MSc in Renewable Energy Engineering from Kingston University (coursework Sep 2024–Nov 2025, conferred Nov 2025, convocation Mar 2026), and a BSc in Environmental Science from Fergusson College, Pune (2021–2024). His undergraduate thesis was a cost study of renewable energy resources."
+      answer: "MSc in Renewable Energy Engineering from Kingston University (coursework Sep 2024-Nov 2025, conferred Nov 2025, convocation Mar 2026), and a BSc in Environmental Science from Fergusson College, Pune (2021-2024). His undergraduate thesis was a cost study of renewable energy resources."
     },
     {
       keywords: ["project", "projects", "portfolio", "work sample", "case study"],
