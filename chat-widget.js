@@ -1,24 +1,24 @@
 /*
- * Chat with my résumé — v1
+ * Chat with my résumé; v1
  *
  * Fully client-side, rule-based keyword matcher. No API calls, no server,
  * no per-message cost. Every answer is sourced directly from the dossier
- * this site is built from (my-cv-site-2/) — nothing here is invented, and
+ * this site is built from (my-cv-site-2/); nothing here is invented, and
  * when nothing matches well enough, it says so instead of guessing.
  *
  * This is deliberately a v1: swapping in a real LLM later is a matter of
- * replacing answerQuery() with an API call — the widget markup and UI
+ * replacing answerQuery() with an API call; the widget markup and UI
  * don't need to change.
  */
 (function () {
   var KB = [
     {
       keywords: ["who", "sheersh", "you", "yourself", "about"],
-      answer: "Sheersh Kachhwaha is a Retail Advisory Analyst at Genpact, combining a renewable-energy engineering background with financial and investment decision-support — scenario modelling, sensitivity analysis, NPV and payback. He also writes independently on Substack about retail, CPG, and AI."
+      answer: "Sheersh Kachhwaha is a Retail Advisory Analyst at Genpact, combining a renewable-energy engineering background with financial and investment decision-support; scenario modelling, sensitivity analysis, NPV and payback. He also writes independently on Substack about retail, CPG, and AI."
     },
     {
       keywords: ["genpact", "job", "role", "work", "current", "employer", "title"],
-      answer: "He's currently an Analyst, Retail Advisory at Genpact (an advanced technology services and solutions company), based in London, since July 2026 — supporting structured, hypothesis-led analysis (MECE frameworks, issue trees) on cross-industry client advisory engagements."
+      answer: "He's currently an Analyst, Retail Advisory at Genpact (an advanced technology services and solutions company), based in London, since July 2026; supporting structured, hypothesis-led analysis (MECE frameworks, issue trees) on cross-industry client advisory engagements."
     },
     {
       keywords: ["education", "degree", "university", "college", "study", "studied", "msc", "bsc", "kingston", "fergusson"],
@@ -26,23 +26,23 @@
     },
     {
       keywords: ["project", "projects", "portfolio", "work sample", "case study"],
-      answer: "Three independent projects so far: an investment case comparing renewable vs. conventional energy systems (CapEx, OpEx, LCOE, carbon footprint, community impact), The Fair Energy Project — a wind farm proposal for Mablethorpe, Lincolnshire, and a procurement & materials cost analysis that recommended carbon steel over tool steel. See the Projects page for the full write-ups."
+      answer: "Three independent projects so far: an investment case comparing renewable vs. conventional energy systems (CapEx, OpEx, LCOE, carbon footprint, community impact), The Fair Energy Project; a wind farm proposal for Mablethorpe, Lincolnshire, and a procurement & materials cost analysis that recommended carbon steel over tool steel. See the Projects page for the full write-ups."
     },
     {
       keywords: ["skill", "skills", "tool", "tools", "python", "sql", "excel", "software", "language", "languages"],
-      answer: "Core tools: Excel (advanced modelling), SQL, Python, Minitab, GaBi, and WindPro. Core methods: scenario/sensitivity modelling, NPV and payback analysis, MECE problem structuring, and ESG/lifecycle risk evaluation — increasingly paired with AI-augmented workflows. He's also fluent in English and Hindi, and currently learning Spanish."
+      answer: "Core tools: Excel (advanced modelling), SQL, Python, Minitab, GaBi, and WindPro. Core methods: scenario/sensitivity modelling, NPV and payback analysis, MECE problem structuring, and ESG/lifecycle risk evaluation; increasingly paired with AI-augmented workflows. He's also fluent in English and Hindi, and currently learning Spanish."
     },
     {
       keywords: ["writing", "substack", "blog", "article", "articles", "write"],
-      answer: "He writes on Substack (sheersh13.substack.com) about regulation, cost pressure, and AI reshaping retail and CPG — thirteen pieces so far, including \"Melting Margins. Rising Costs. No Place to Hide.\" and \"The Retailer of 2030 Sells Nothing You Can See.\" See the Writing page for all thirteen."
+      answer: "He writes on Substack (sheersh13.substack.com) about regulation, cost pressure, and AI reshaping retail and CPG; thirteen pieces so far, including \"Melting Margins. Rising Costs. No Place to Hide.\" and \"The Retailer of 2030 Sells Nothing You Can See.\" See the Writing page for all thirteen."
     },
     {
       keywords: ["contact", "email", "reach", "hire", "collaborate", "get in touch", "linkedin", "github"],
-      answer: "Best route is email: Sheersh0802@gmail.com. He's also on LinkedIn (linkedin.com/in/sheersh-kachhwaha) and GitHub (github.com/sheersh-star) — see the Contact page for the direct links."
+      answer: "Best route is email: Sheersh0802@gmail.com. He's also on LinkedIn (linkedin.com/in/sheersh-kachhwaha) and GitHub (github.com/sheersh-star); see the Contact page for the direct links."
     },
     {
       keywords: ["hobby", "hobbies", "fun", "outside", "personal", "badminton", "nutrition", "fitness"],
-      answer: "Badminton, an ongoing interest in learning new languages, and a deep, longstanding interest in nutrition, diet, fitness and sport — the last one traces back to watching his mother work as a nutritionist, and turns out to be directly useful in his CPG/retail work. See the About page for more."
+      answer: "Badminton, an ongoing interest in learning new languages, and a deep, longstanding interest in nutrition, diet, fitness and sport; the last one traces back to watching his mother work as a nutritionist, and turns out to be directly useful in his CPG/retail work. See the About page for more."
     },
     {
       keywords: ["certification", "certifications", "certificate", "claude", "mckinsey"],
@@ -50,11 +50,11 @@
     },
     {
       keywords: ["available", "availability", "open to work", "hiring", "freelance"],
-      answer: "He's open to opportunities — the most reliable way to reach him is via the Contact page."
+      answer: "He's open to opportunities; the most reliable way to reach him is via the Contact page."
     },
     {
       keywords: ["reference", "references", "recommend", "recommendation"],
-      answer: "Several willing references are listed by name and role on the About page, across Genpact, Beyond Barriers, Tradester, and his dissertation mentors — contact details are available on request."
+      answer: "Several willing references are listed by name and role on the About page, across Genpact, Beyond Barriers, Tradester, and his dissertation mentors; contact details are available on request."
     },
     {
       keywords: ["dissertation", "thesis", "research", "anova"],
@@ -62,8 +62,8 @@
     }
   ];
 
-  var FALLBACK = "That's not in my dossier yet — rather than guess, I'll point you to Sheersh directly: Sheersh0802@gmail.com.";
-  var GREETING = "Ask me about Sheersh's role, education, projects, skills, or writing — I only answer from what's actually documented on this site.";
+  var FALLBACK = "That's not in my dossier yet; rather than guess, I'll point you to Sheersh directly: Sheersh0802@gmail.com.";
+  var GREETING = "Ask me about Sheersh's role, education, projects, skills, or writing; I only answer from what's actually documented on this site.";
   var SUGGESTIONS = ["What does he do at Genpact?", "What projects has he done?", "How do I contact him?"];
 
   function answerQuery(raw) {
