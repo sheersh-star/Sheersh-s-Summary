@@ -159,9 +159,12 @@ nav.links a[aria-current="page"] {
 .about-hero { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
 .about-hero h1 { margin-bottom: 0; }
 .headshot {
-  width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center 30%;
-  border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--line), 0 8px 24px rgba(0,0,0,0.12);
+  width: 200px; height: 200px; border-radius: 22px; object-fit: cover;
+  box-shadow: 0 0 0 1px var(--line), 0 12px 32px rgba(0,0,0,0.16);
   flex-shrink: 0;
+}
+@media (max-width: 560px) {
+  .headshot { width: 150px; height: 150px; }
 }
 .eyebrow {
   font-family: var(--font-body); font-size: 13px; font-weight: 600; letter-spacing: 0.08em;
