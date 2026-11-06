@@ -156,6 +156,13 @@ nav.links a[aria-current="page"] {
   from { transform: translateY(-14px) translateX(-6px); }
   to { transform: translateY(14px) translateX(6px); }
 }
+.about-hero { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+.about-hero h1 { margin-bottom: 0; }
+.headshot {
+  width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center 30%;
+  border: 3px solid var(--surface); box-shadow: 0 0 0 1px var(--line), 0 8px 24px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
 .eyebrow {
   font-family: var(--font-body); font-size: 13px; font-weight: 600; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--accent); margin: 0 0 14px;
