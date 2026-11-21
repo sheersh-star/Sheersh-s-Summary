@@ -26,7 +26,7 @@
     },
     {
       keywords: ["project", "projects", "portfolio", "work sample", "case study"],
-      answer: "Three independent projects so far: an investment case comparing renewable vs. conventional energy systems (CapEx, OpEx, LCOE, carbon footprint, community impact), The Fair Energy Project; a wind farm proposal for Mablethorpe, Lincolnshire, and a procurement & materials cost analysis that recommended carbon steel over tool steel. See the Projects page for the full write-ups."
+      answer: "Five independent projects so far, most recent first: ESG Meets CPG (an ESG regulatory intelligence console, still a work in progress), the Frozen Dessert Market Console, a procurement & materials cost analysis that recommended carbon steel over tool steel, an investment case comparing renewable vs. conventional energy systems, and The Fair Energy Project, a wind farm proposal for Mablethorpe, Lincolnshire. See the Projects page for the full write-ups."
     },
     {
       keywords: ["skill", "skills", "tool", "tools", "python", "sql", "excel", "software", "language", "languages"],
