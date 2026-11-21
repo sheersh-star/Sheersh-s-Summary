@@ -34,7 +34,7 @@
     },
     {
       keywords: ["writing", "substack", "blog", "article", "articles", "write", "sustainability", "esg"],
-      answer: "He writes on Substack (sheersh13.substack.com) about sustainability, ESG, and AI reshaping retail and CPG; twenty-two pieces so far, including \"The Wars of the Roses: Why Sustainability Practice and Sustainability Reporting Never Learned to Speak to Each Other\" and \"From Plantation to P&L: How ESG Regulation Is Repricing Risk Across the CPG Shelf.\" See the Writing page for all twenty-two."
+      answer: "He writes on Substack (sheersh13.substack.com) about sustainability, ESG, and AI reshaping retail and CPG; twenty-eight pieces so far, including \"Burhs, Not Heroes: Why Sustainability Needs Agentic AI, and How to Build It\" and \"Receipts, Not Reports: How Agentic AI Can End Sustainability's Data Famine and Get Practice Moving.\" See the Writing page for all twenty-eight."
     },
     {
       keywords: ["contact", "email", "reach", "hire", "collaborate", "get in touch", "linkedin", "github"],
