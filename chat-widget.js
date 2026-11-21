@@ -14,7 +14,7 @@
   var KB = [
     {
       keywords: ["who", "sheersh", "you", "yourself", "about"],
-      answer: "Sheersh Kachhwaha is a Retail Advisory Analyst at Genpact, combining a renewable-energy engineering background with financial and investment decision-support; scenario modelling, sensitivity analysis, NPV and payback. He also writes independently on Substack about retail, CPG, and AI."
+      answer: "Sheersh Kachhwaha is a Retail Advisory Analyst at Genpact, combining a renewable-energy engineering background with financial and investment decision-support; scenario modelling, sensitivity analysis, and return-on-investment analysis. He also writes independently on Substack about sustainability, ESG, and AI."
     },
     {
       keywords: ["genpact", "job", "role", "work", "current", "employer", "title"],
@@ -30,7 +30,7 @@
     },
     {
       keywords: ["skill", "skills", "tool", "tools", "python", "sql", "excel", "software", "language", "languages"],
-      answer: "Core tools: Excel (advanced modelling), SQL, Python, Minitab, GaBi, and WindPro. Core methods: scenario/sensitivity modelling, NPV and payback analysis, MECE problem structuring, and ESG/lifecycle risk evaluation; increasingly paired with AI-augmented workflows. He's also fluent in English and Hindi, and currently learning Spanish."
+      answer: "Core tools: Excel (advanced modelling), SQL, Python, Minitab, GaBi, and WindPro. Core methods: scenario/sensitivity modelling, return-on-investment analysis, MECE problem structuring, and ESG/lifecycle risk evaluation; increasingly paired with AI-augmented workflows. He's also fluent in English and Hindi, and currently learning Spanish."
     },
     {
       keywords: ["writing", "substack", "blog", "article", "articles", "write", "sustainability", "esg"],
