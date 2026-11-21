@@ -14,7 +14,7 @@
   var KB = [
     {
       keywords: ["who", "sheersh", "you", "yourself", "about"],
-      answer: "Sheersh Kachhwaha is a Retail Advisory Analyst at Genpact, combining a renewable-energy engineering background with financial and investment decision-support; scenario modelling, sensitivity analysis, and return-on-investment analysis. He also writes independently on Substack about sustainability, ESG, and AI."
+      answer: "Sheersh Kachhwaha is a sustainability-trained, AI-educated Retail Advisory Analyst at Genpact, building towards agentic AI strategy; combining a renewable-energy engineering background with financial and investment decision-support. Long-term aim is doctoral research on agentic AI and sustainability. He also writes independently on Substack about sustainability, ESG, and AI."
     },
     {
       keywords: ["genpact", "job", "role", "work", "current", "employer", "title"],
@@ -26,7 +26,7 @@
     },
     {
       keywords: ["project", "projects", "portfolio", "work sample", "case study"],
-      answer: "Five independent projects so far, most recent first: ESG Meets CPG (an ESG regulatory intelligence console, still a work in progress), the Frozen Dessert Market Console, a procurement & materials cost analysis that recommended carbon steel over tool steel, an investment case comparing renewable vs. conventional energy systems, and The Fair Energy Project, a wind farm proposal for Mablethorpe, Lincolnshire. See the Projects page for the full write-ups."
+      answer: "Six independent projects so far, most recent first: ESG Meets CPG (an ESG regulatory intelligence console, still a work in progress), the Frozen Dessert Market Console, a procurement & materials cost analysis that recommended carbon steel over tool steel, an investment case comparing renewable vs. conventional energy systems, The Fair Energy Project (a wind farm proposal for Mablethorpe, Lincolnshire), and a stakeholder communication & perception change campaign on pollution hazards. See the Projects page for the full write-ups."
     },
     {
       keywords: ["skill", "skills", "tool", "tools", "python", "sql", "excel", "software", "language", "languages"],
