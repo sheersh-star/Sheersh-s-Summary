@@ -33,8 +33,8 @@
       answer: "Core tools: Excel (advanced modelling), SQL, Python, Minitab, GaBi, and WindPro. Core methods: scenario/sensitivity modelling, NPV and payback analysis, MECE problem structuring, and ESG/lifecycle risk evaluation; increasingly paired with AI-augmented workflows. He's also fluent in English and Hindi, and currently learning Spanish."
     },
     {
-      keywords: ["writing", "substack", "blog", "article", "articles", "write"],
-      answer: "He writes on Substack (sheersh13.substack.com) about regulation, cost pressure, and AI reshaping retail and CPG; thirteen pieces so far, including \"Melting Margins. Rising Costs. No Place to Hide.\" and \"The Retailer of 2030 Sells Nothing You Can See.\" See the Writing page for all thirteen."
+      keywords: ["writing", "substack", "blog", "article", "articles", "write", "sustainability", "esg"],
+      answer: "He writes on Substack (sheersh13.substack.com) about sustainability, ESG, and AI reshaping retail and CPG; twenty-two pieces so far, including \"The Wars of the Roses: Why Sustainability Practice and Sustainability Reporting Never Learned to Speak to Each Other\" and \"From Plantation to P&L: How ESG Regulation Is Repricing Risk Across the CPG Shelf.\" See the Writing page for all twenty-two."
     },
     {
       keywords: ["contact", "email", "reach", "hire", "collaborate", "get in touch", "linkedin", "github"],
