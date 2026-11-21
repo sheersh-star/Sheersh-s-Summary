@@ -1,19 +1,19 @@
 /* The Sheersh Standard; shared stylesheet */
 
 :root {
-  --paper: #fbfbfd;
-  --surface: #ffffff;
-  --surface-2: #f5f5f7;
-  --ink: #1d1d1f;
-  --muted: #6e6e73;
-  --muted-2: #86868b;
-  --accent: #9C5B5E;
-  --accent-solid: #8C4A4E;
-  --accent-gradient: linear-gradient(135deg, #A55A62 0%, #8C4A4E 100%);
-  --accent-2: #a86b12;
-  --line: #e5e5ea;
-  --shadow-1: 0 2px 10px rgba(0,0,0,0.04);
-  --shadow-2: 0 16px 40px rgba(0,0,0,0.10);
+  --paper: #F3EEE6;
+  --surface: #FBF8F2;
+  --surface-2: #EBE4D6;
+  --ink: #1D211F;
+  --muted: #5C6B68;
+  --muted-2: #7D8A87;
+  --accent: #236B64;
+  --accent-solid: #1B5551;
+  --accent-gradient: linear-gradient(135deg, #2C7D75 0%, #1B5551 100%);
+  --accent-2: #B87333;
+  --line: #E3DCCF;
+  --shadow-1: 0 2px 10px rgba(29,33,31,0.06);
+  --shadow-2: 0 16px 40px rgba(29,33,31,0.12);
   --ease: cubic-bezier(0.28, 0.11, 0.32, 1);
   --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -22,30 +22,30 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #000000;
-    --surface: #1c1c1e;
-    --surface-2: #121214;
-    --ink: #f5f5f7;
-    --muted: #98989d;
-    --muted-2: #86868b;
-    --accent: #E3B0A6;
-    --accent-2: #d2a24c;
-    --line: rgba(255,255,255,0.14);
+    --paper: #0A0F0E;
+    --surface: #161D1B;
+    --surface-2: #1E2724;
+    --ink: #F3EEE6;
+    --muted: #9BA8A5;
+    --muted-2: #7D8A87;
+    --accent: #5BBBAE;
+    --accent-2: #D99A5B;
+    --line: rgba(243,238,230,0.14);
     --shadow-1: 0 2px 10px rgba(0,0,0,0.35);
     --shadow-2: 0 16px 40px rgba(0,0,0,0.5);
   }
 }
 
 :root[data-theme="dark"] {
-  --paper: #000000;
-  --surface: #1c1c1e;
-  --surface-2: #121214;
-  --ink: #f5f5f7;
-  --muted: #98989d;
-  --muted-2: #86868b;
-  --accent: #E3B0A6;
-  --accent-2: #d2a24c;
-  --line: rgba(255,255,255,0.14);
+  --paper: #0A0F0E;
+  --surface: #161D1B;
+  --surface-2: #1E2724;
+  --ink: #F3EEE6;
+  --muted: #9BA8A5;
+  --muted-2: #7D8A87;
+  --accent: #5BBBAE;
+  --accent-2: #D99A5B;
+  --line: rgba(243,238,230,0.14);
   --shadow-1: 0 2px 10px rgba(0,0,0,0.35);
   --shadow-2: 0 16px 40px rgba(0,0,0,0.5);
 }
