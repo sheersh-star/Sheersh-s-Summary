@@ -26,7 +26,7 @@
     },
     {
       keywords: ["project", "projects", "portfolio", "work sample", "case study"],
-      answer: "Six independent projects so far, most recent first: ESG Meets CPG (an ESG regulatory intelligence console, still a work in progress), the Frozen Dessert Market Console, a procurement & materials cost analysis that recommended carbon steel over tool steel, an investment case comparing renewable vs. conventional energy systems, The Fair Energy Project (a wind farm proposal for Mablethorpe, Lincolnshire), and a stakeholder communication & perception change campaign on pollution hazards. See the Projects page for the full write-ups."
+      answer: "Six independent projects so far, led by ESG Meets CPG (a regulatory intelligence console covering 12 CPG ESG regulations, every row sourced and confidence-labeled; the deliberately unbuilt piece is the company-rating layer, fully designed but not yet implemented). Also: the Frozen Dessert Market Console, a procurement & materials cost analysis that recommended carbon steel over tool steel, an investment case comparing renewable vs. conventional energy systems, The Fair Energy Project (a wind farm proposal for Mablethorpe, Lincolnshire), and a stakeholder communication & perception change campaign on pollution hazards. See the Projects page for the full write-ups."
     },
     {
       keywords: ["skill", "skills", "tool", "tools", "python", "sql", "excel", "software", "language", "languages"],
