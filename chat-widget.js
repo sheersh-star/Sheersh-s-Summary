@@ -14,11 +14,11 @@
   var KB = [
     {
       keywords: ["who", "sheersh", "you", "yourself", "about"],
-      answer: "Sheersh Kachhwaha is a sustainability-trained, AI-educated Retail Advisory Analyst at Genpact, building towards agentic AI strategy; combining a renewable-energy engineering background with financial and investment decision-support. He also writes independently on Substack about sustainability, ESG, and AI."
+      answer: "Sheersh Kachhwaha is a sustainability-trained, AI-educated Retail Advisory Analyst (Intern) at Genpact, building towards agentic AI strategy; combining a renewable-energy engineering background with financial and investment decision-support. He also writes independently on Substack about sustainability, ESG, and AI."
     },
     {
       keywords: ["genpact", "job", "role", "work", "current", "employer", "title"],
-      answer: "He's currently an Analyst, Retail Advisory at Genpact (an advanced technology services and solutions company), based in London, since July 2026; supporting structured, hypothesis-led analysis (MECE frameworks, issue trees) on cross-industry client advisory engagements."
+      answer: "He's currently an Analyst (Intern), Retail Advisory at Genpact (an advanced technology services and solutions company), based in London, since July 2026; supporting structured, hypothesis-led analysis (MECE frameworks, issue trees) on cross-industry client advisory engagements."
     },
     {
       keywords: ["education", "degree", "university", "college", "study", "studied", "msc", "bsc", "kingston", "fergusson"],
